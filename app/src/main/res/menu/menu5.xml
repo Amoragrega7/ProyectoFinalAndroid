@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/mnoti"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/notification"
+        android:title="Notificaciones" >
+        <menu>
+            <item android:id="@+id/smsnack"
+                android:title="Snackbar" >
+            </item>
+            <item android:id="@+id/smtoast"
+                android:title="Toast" >
+            </item>
+            <item android:id="@+id/smestado"
+                android:title="De estado" >
+            </item>
+        </menu>
+    </item>
+    <item android:id="@+id/mllamar"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/call"
+        android:title="Llamar" />
+    <item android:id="@+id/mnavegador"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/navegador"
+        android:title="Navegador" />
+    <item android:id="@+id/mlogout"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/logout"
+        android:title="Logout" />
+</menu>
